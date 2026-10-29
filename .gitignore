@@ -1,0 +1,20 @@
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Archivos generados al compilar index.ts
+/index.js
+/index.js.map
+/index.d.ts
+/index.d.ts.map
+
+# Configuración local y secretos
+.env
+.env.*
+.aws/
+.codex/
+.agents/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
